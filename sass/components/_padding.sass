@@ -1,0 +1,23 @@
+// Padding
+//
+// example: .p-t-3
+
+$paddingSizes: 0 5 10 15 20 30 40 60
+
+@for $idx from 1 through length($paddingSizes)
+  $size: nth($paddingSizes, $idx)
+
+  .p#{$idx - 1}
+    padding: $size !important
+
+  .pt#{$idx - 1}
+    padding-top: $size !important
+
+  .pb#{$idx - 1}
+    padding-bottom: $size !important
+
+  .pl#{$idx - 1}
+    padding-left: $size !important
+
+  .pr#{$idx - 1}
+    padding-right: $size !important
