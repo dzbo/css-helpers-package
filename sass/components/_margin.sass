@@ -1,23 +1,23 @@
 // Margin
 //
-// example: .mt3
+// example: .m-t-3
 
 $marginSizes: 0 5 10 15 20 30 40 60
 
 @for $idx from 1 through length($marginSizes)
   $size: nth($marginSizes, $idx)
 
-  .m#{$idx - 1}
+  .m-#{$idx - 1}
     margin: #{$size}px !important
 
-  .mt#{$idx - 1}
+  .m-t-#{$idx - 1}
     margin-top: #{$size}px !important
 
-  .mb#{$idx - 1}
+  .m-b-#{$idx - 1}
     margin-bottom: #{$size}px !important
 
-  .ml#{$idx - 1}
+  .m-l-#{$idx - 1}
     margin-left: #{$size}px !important
 
-  .mr#{$idx - 1}
+  .m-r-#{$idx - 1}
     margin-right: #{$size}px !important
