@@ -18,5 +18,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/dzbo/css-helpers-package.git"
-  }
+  },
+  "ignore": [
+    "bower_components"
+  ]
 }
