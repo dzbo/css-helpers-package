@@ -17,9 +17,15 @@
   "homepage": "https://github.com/dzbo",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dzbo/css-helpers-package.git"
+    "url": "https://github.com/dzbo/css-helpers-package.git"
   },
   "ignore": [
-    "bower_components"
-  ]
+    "bower_components",
+    "**/.*",
+    "node_modules",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "moduleType": []
 }
